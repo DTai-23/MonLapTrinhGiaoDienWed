@@ -1,1 +1,29 @@
-Xin chào các bạn tôi là Tài Lỏ
+import React from "react";
+
+const LandingPage = () => {
+  return (
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-blue-500 to-indigo-600 text-white p-6">
+      <header className="text-center">
+        <h1 className="text-4xl font-bold">Lập Trình Giao Diện Web</h1>
+        <p className="mt-2 text-lg">Học cách xây dựng website chuyên nghiệp từ cơ bản đến nâng cao</p>
+      </header>
+      <section className="mt-6 bg-white text-black p-6 rounded-xl shadow-lg w-full max-w-2xl text-center">
+        <h2 className="text-2xl font-semibold">Nội Dung Khóa Học</h2>
+        <ul className="mt-4 text-left list-disc list-inside">
+          <li>HTML, CSS cơ bản và nâng cao</li>
+          <li>JavaScript và thư viện phổ biến</li>
+          <li>Responsive Design và UI/UX</li>
+          <li>Frameworks như React, Vue</li>
+        </ul>
+      </section>
+      <footer className="mt-6">
+        <button className="bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-2 px-6 rounded-lg shadow-md">
+          Đăng Ký Ngay
+        </button>
+      </footer>
+    </div>
+  );
+};
+
+export default LandingPage;
+
